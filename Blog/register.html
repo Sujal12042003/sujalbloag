@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+
+    <!-- custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Sujal</span>Blogs</h1>
+        </div>
+        <i class='fa fa-bars menu-toggle'></i>
+        <ul class="nav">
+            <li><a href="#">Home</a>
+                <ul style="left: 0px;">
+                    <li><a href="#">Landing Page</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <!-- <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Sujal Blogs
+                    <i class="fa fa-chevron-down" style="font-size: 0.8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="register.html" method="post">
+            <h2 class="form-title">Register</h2>
+
+            <!-- <div class="msg success error">
+                <li>Username Required</li>
+            </div> -->
+            <div>
+                <label>Username</label>
+               <input type="text" name="username" id="" class="text-input">
+            </div>
+            <div>
+                <label>email</label>
+               <input type="email" name="email" id="" class="text-input">
+            </div>
+            <div>
+                <label>password</label>
+               <input type="password" name="password" id="" class="text-input">
+            </div>
+            <div>
+                <label>password Confirmation</label>
+               <input type="password" name="passwordConf" id="" class="text-input">
+            </div>
+            <div>
+                <button type="submit" name="register-btn" class="btn btn-big">Register</button>
+            </div>
+            <p>Or <a href="login.html">Sign In</a></p>
+        </form>
+    </div>
+
+ <!-- query -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer">
+ </script>
+             
+<!-- custom Script -->
+ <script src="js/scripts.js"></script>
+
